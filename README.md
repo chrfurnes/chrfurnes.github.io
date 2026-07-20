@@ -16,4 +16,4 @@
 
 
 ### Kontakt
-Linkedin:  [LinkedIn-profilen min](inkedin.com/in/christian-furnes-730670297/)
+*  Linkedin:  [LinkedIn-profilen min](inkedin.com/in/christian-furnes-730670297/)
