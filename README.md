@@ -1,16 +1,14 @@
-## Hi there 👋
+# Christian Furnes ┃ Aksjeanalyser
 
-<!--
-**chrfurnes/chrfurnes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+## ***Om meg*** 
+*Etter flere år med modellering og analyser til eget bruk, bruker jeg nå denne nettsiden til å publisere og dele arbeidet mitt offentlig. Mitt fokus er å gå i dybden på kjente (og ukjente) selskaper og utfordre markedets konsensussyn.*
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## Aktuelle Analyser: 
+
+
+
+
+### Kontakt
+Linkedin:  [LinkedIn-profilen min](inkedin.com/in/christian-furnes-730670297/)
