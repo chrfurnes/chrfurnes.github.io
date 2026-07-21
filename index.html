@@ -13,7 +13,7 @@
         content="Christian Furnes publiserer selvstendige aksjeanalyser og verdsettelser av nordiske børsnoterte selskaper."
     >
 
-    <title>Christian Furnes | Aksjeanalyser</title>
+    <title>Christian Furnes</title>
 
     <style>
         :root {
@@ -86,6 +86,8 @@
 
             background: rgba(245, 243, 237, 0.96);
             border-bottom: 1px solid var(--border);
+
+            backdrop-filter: blur(10px);
         }
 
         .navigation {
@@ -119,16 +121,13 @@
             font-size: 0.91rem;
             font-weight: 600;
             text-decoration: none;
+
+            transition: color 150ms ease;
         }
 
         .desktop-nav a:hover,
         .desktop-nav a:focus-visible {
             color: var(--text);
-        }
-
-        .desktop-nav .contact-link {
-            color: var(--accent);
-            border-bottom: 1px solid var(--accent);
         }
 
         /* Mobilmeny */
@@ -224,7 +223,7 @@
             border-bottom: 0;
         }
 
-        /* Felles typografi */
+        /* Typografi */
 
         h1,
         h2,
@@ -395,7 +394,7 @@
             font-weight: 650;
         }
 
-        /* Seksjoner */
+        /* Generelle seksjoner */
 
         .section {
             padding: 92px 0;
@@ -564,41 +563,49 @@
         /* Kontakt */
 
         .contact-section {
-            padding: 82px 0;
+            padding: 68px 0 74px;
+
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
         }
 
-        .contact-grid {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) auto;
-            gap: 60px;
-            align-items: end;
+        .contact-simple {
+            max-width: 760px;
         }
 
-        .contact-copy {
-            max-width: 720px;
+        .contact-simple h2 {
+            margin-bottom: 14px;
         }
 
-        .contact-copy p {
-            margin-bottom: 0;
+        .contact-text {
+            max-width: 620px;
+            margin-bottom: 24px;
 
             color: var(--muted);
-            font-size: 1.05rem;
+            font-size: 1.04rem;
         }
 
         .contact-links {
             display: flex;
-            gap: 26px;
-
-            padding-bottom: 8px;
+            flex-wrap: wrap;
+            gap: 22px;
         }
 
         .contact-links a {
             color: var(--accent);
 
+            padding-bottom: 3px;
+
             font-weight: 700;
             text-decoration: none;
 
             border-bottom: 1px solid var(--accent);
+        }
+
+        .contact-links a:hover,
+        .contact-links a:focus-visible {
+            color: var(--text);
+            border-color: var(--text);
         }
 
         /* Footer */
@@ -641,8 +648,7 @@
             }
 
             .hero-grid,
-            .about-grid,
-            .contact-grid {
+            .about-grid {
                 grid-template-columns: 1fr;
                 gap: 46px;
             }
@@ -666,10 +672,6 @@
             .analysis-side {
                 grid-column: 2;
                 text-align: left;
-            }
-
-            .contact-links {
-                padding-bottom: 0;
             }
         }
 
@@ -719,6 +721,10 @@
                 gap: 4px;
             }
 
+            .contact-section {
+                padding: 58px 0 62px;
+            }
+
             .contact-links,
             .footer-content {
                 flex-direction: column;
@@ -758,13 +764,7 @@
                 <a href="#om">Om</a>
                 <a href="#metode">Metode</a>
                 <a href="#analyser">Analyser</a>
-
-                <a
-                    class="contact-link"
-                    href="#kontakt"
-                >
-                    Kontakt
-                </a>
+                <a href="#kontakt">Kontakt</a>
             </nav>
 
             <button
@@ -800,7 +800,7 @@
                     </p>
 
                     <h1>
-                        Selskapsanalyse og verdsettelse
+                        Selskapsanalyse og verdsettelse.
                     </h1>
 
                     <p class="lead">
@@ -1049,13 +1049,19 @@
             id="kontakt"
             class="contact-section"
         >
-            <div class="container contact-grid">
-                <div class="contact-copy">
-                    <p class="section-label">
-                        Kontakt
-                    </p>
+            <div class="container contact-simple">
+                <p class="section-label">
+                    Kontakt
+                </p>
 
-                </div>
+                <h2>
+                    Ta gjerne kontakt.
+                </h2>
+
+                <p class="contact-text">
+                    Du kan nå meg på LinkedIn eller e-post dersom du ønsker
+                    å komme i kontakt.
+                </p>
 
                 <div class="contact-links">
                     <a
@@ -1063,11 +1069,11 @@
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        LinkedIn ↗
+                        LinkedIn
                     </a>
 
                     <a href="mailto:chrfurnes04@gmail.com">
-                        E-post ↗
+                        E-post
                     </a>
                 </div>
             </div>
